@@ -1,0 +1,78 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background:linear-gradient();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.pokebola {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    background-color: crimson;
+    background-image: radial-gradient(circle, crimson, crimson, black);
+    border-radius:100%;
+    top:100px;
+    z-index:-2;
+    overflow:hidden;  
+
+}
+.pokebola-content {
+    height: 500px;
+    width: 500px;
+}
+.bottom-white {
+    height: 250px;
+    width: 500px;
+    background-color: aliceblue;
+    position:absolute;
+    bottom:0;
+    z-index:-1;
+}
+.bottom-white::after {
+    content: '';
+    height: 94px;
+    width: 124px;
+    background-color: white;
+    filter: blur(15px);
+    position: absolute;
+    top: -183px;
+    left: 265px;
+}
+.bottom-white::before {
+    content: '';
+    height: 35px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top:-18px;
+}
+.button {
+    height:130px;
+    width:130px;
+    background-color:white;
+    border:10px solid black;
+    border-radius:100%;
+    position: absolute;
+    top:-45px;
+    left:20%;
+}
+.button::before {
+    content: '';
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 10px rgb(149 149 149 / 50%);
+    left: 22px;
+    top:25px;
+}
