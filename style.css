@@ -117,6 +117,7 @@ body {
     .pokebola {
         height: 200px;
         width: 200px;
+        margin-left: 120px;
     }
     .bottom-white {
         height: 90px;
@@ -134,13 +135,13 @@ body {
         height:70px;
         width:70px;
         border:10px solid black;
-        top:-45px;
+        top:-50px;
         left:20%;
     }
     .button::before {
         height: 30px;
         width: 30px;
-        left: 8px;
-        top:12px;
+        left: 7px;
+        top: 9px;
     }
 }
