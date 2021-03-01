@@ -23,7 +23,22 @@ body {
     z-index:1;
     overflow:hidden;  
     box-shadow: -100px 50px 20px 10px rgba(19, 19, 19, 0.5);
+    transition: animation ease;
 }
+.pokebola:hover {
+    animation: shake 0.1s ease-in-out infinite 0.1s alternate;
+}
+
+@keyframes shake {
+    0% {
+/*        transform: rotate(deg) ; */
+       transform: translateX(50px)
+    }
+    100% {
+        transform: rotate(-1fi5deg) ;
+    }
+}
+
 .pokebola-content {
     height: 100%;
     width: 100%;
@@ -42,6 +57,7 @@ body {
     height: 94px;
     width: 124px;
     background-color: white;
+    border-radius: 100%;
     filter: blur(15px);
     position: absolute;
     top: -183px;
@@ -66,8 +82,8 @@ body {
     position: absolute;
     top:-62px;
     left:20%;
-    animation: move 4s infinite 2s;
 }
+
 .button::before {
     content: '';
     height: 60px;
@@ -77,24 +93,26 @@ body {
     position: absolute;
     border-radius: 100%;
     box-shadow: 0 0 20px 10px rgb(149 149 149 / 50%);
-    left: 22px;
-    top:25px;
+    left: 19px;
+    top: 24px;
 }
-.button:hover {
-    transform: scale(0.97);
+
+.pokebola:hover .button::before {
+    animation: brighRed 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: brightRed;
+    animation-name: brightRed;
+    animation-duration: infinite;
+    transition: ease-in-out;
 }
-  
-@keyframes move {
+@keyframes brightRed {
     0% {
-
-    }
-    50% {
-
+      background-image: radial-gradient(circle at right, aliceblue, aliceblue, black);
     }
     100% {
-
+      background-image: radial-gradient(circle at right, rgb(240, 159, 159), rgb(240, 159, 159), black);
     }
-}
+  }
 
 @media (max-width:780px) {
     .pokebola {
