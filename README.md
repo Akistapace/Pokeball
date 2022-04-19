@@ -1,4 +1,4 @@
-<h1 display="flex" align="center"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/Pokeball.png" emoji-code="Pokeball" alt="Pokeball" height="30px" width="35px" /> Pokebola in Pure CSS <img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/Pokeball.png" emoji-code="Pokeball" alt="Pokeball" height="30px" width="35px" /></h1>
+<h1 display="flex" align="center"><img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/Pokeball.png" emoji-code="Pokeball" alt="Pokeball" height="30px" width="35px" />Pokeball in pure CSS <img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/Pokeball.png" emoji-code="Pokeball" alt="Pokeball" height="30px" width="35px" /></h1>
 
 <p  align="center">
 
@@ -14,13 +14,13 @@
 </p>
 
 <div  align="center">
-# :space_invader: Sobre o projeto :space_invader:
+# :space_invader: About the project :space_invader:
 <div>
 
-`Pokebola` realizada somente com css puro, utilizando técnicas para deixá-la com visual realista.
+`Pokeball` performed only with pure css, using css techniques to make it look realistic.
 ---
 
-### [Visualizar projeto publicado](https://akistapace.github.io/Pokebola/):  
+### [View published project](https://akistapace.github.io/Pokebola/):  
 
 ---
 ##  :star: Autor :star:
