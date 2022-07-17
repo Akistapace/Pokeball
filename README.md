@@ -20,7 +20,7 @@
 `Pokeball` performed only with pure css, using css techniques to make it look realistic.
 ---
 
-### [View published project](https://akistapace.github.io/Pokebola/):  
+### [View published project](https://akistapace.github.io/Pokeball/):  
 
 ---
 ##  :star: Autor :star:
