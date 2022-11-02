@@ -23,19 +23,29 @@ body {
     z-index:1;
     overflow:hidden;  
     box-shadow: -100px 50px 20px 10px rgba(19, 19, 19, 0.5);
-    transition: animation ease;
+    transition: transform 0.9s linear;
+    transform: translateX(0px) rotate(0deg);
 }
 .pokebola:hover {
-    animation: shake 0.1s ease-in-out infinite 0.1s alternate;
+    animation: shake 0.9s linear infinite normal;
+    transition: transform 0.9s linear
 }
 
 @keyframes shake {
     0% {
-/*        transform: rotate(deg) ; */
-       transform: translateX(50px)
+        transform: translateX(0px) rotate(0deg);
     }
-    100% {
-        transform: rotate(-1fi5deg) ;
+    25% {
+       transform: translateX(-25px) rotate(-20deg);
+    }
+    50% {
+       transform: translateX(0px) rotate(0deg);
+    }
+    75% {
+       transform: translateX(25px) rotate(20deg);
+    }
+    10o% {
+        transform: translateX(0px) rotate(0deg);
     }
 }
 
